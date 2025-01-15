@@ -6,7 +6,6 @@ function delayPromise(delay: number, message: string): Promise<string> {
     });
 }
 
-// Пример использования:
 delayPromise(5000, "Hi").then((result) => {
     console.log(result);
 });
